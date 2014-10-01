@@ -1,0 +1,91 @@
+div.block {
+	position: relative;
+	font-family: Tahoma, sans-serif;
+	background-color:#9999FF;
+	background: -webkit-linear-gradient(top,#BBBBFF,#9999FF);
+}
+body, input { 
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 90%;
+}
+body, select { 
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 90%;
+}
+body {
+	  font-family: Tahoma, Arial, sans-serif;
+}
+div.header {
+	position:relative; /* такие элементы могут перекрывать другие элементы. Для смещения относительно исходной позиции используются свойства margin*/
+	border-radius: 6px;
+	left: 50 px;
+    width: 220px;
+	background: -webkit-linear-gradient(top,#BBBBFF,#9999FF);
+	background: -o-linear-gradient(top,#BBBBFF,#9999FF);
+	background: -moz-linear-gradient(top,#BBBBFF,#9999FF);
+	background: -ms-linear-gradient(top,#BBBBFF,#9999FF);
+	border: 1.5px solid #BBBBFF;
+
+    padding: 10px;
+    margin-left: 1.5%;
+	margin-bottom: -35px;
+	z-index: 1;
+	font-size: 130%;
+	font-family: Tahoma, sans-serif;
+}
+div.panel {
+	line-height: normal;
+    width: 600px;
+	overflow:hidden;  /* Игнорирует обтекаемость элементов. В данном случае панель расширяется, чтобы вместить в себя весь обтекаемый элемент*/
+	background-color:#CCCCFF;
+    padding: 1.5%;
+	padding-top: 50px;
+	z-index: 0; /* Если элементы перекрываются, этот элемент будет располагаться под теми, у кого z-index больше*/
+    margin: 0px;
+	font-family: Tahoma, sans-serif;
+
+}
+
+div.column{
+	float: left; /* Обтекание по правому краю. Элемент, следующий за этим, будет располагаться не снизу, а справа */
+	padding-right: 50px;
+	font-family: Tahoma, sans-serif;
+}
+
+div.error{
+	padding: 1.5%;
+	color: red;
+}
+
+table.options{
+	font-family: Tahoma, sans-serif;
+}
+table.options td {
+	padding: 10px;
+	padding-left: 0px;
+}
+
+table.fileTable {
+	background-color:#BBBBFF;
+	border-radius: 6px;
+}
+
+table.fileTable  td {
+	padding: 10px;
+	text-align: left;
+	font-size: 100%
+}
+
+table.fileTable  th {
+	padding: 10px;
+	text-align: left;
+	font-size: 100%;
+}
+
+​div.mytooltip {
+	border:1px solid #FF00FF;
+	width:150px;
+}​
+
+
+  

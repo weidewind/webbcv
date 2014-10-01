@@ -1,0 +1,14 @@
+<plugin name='gpars' version='0.3' grailsVersion='1.2.3 &gt; *'>
+  <author>Vaclav Pech</author>
+  <authorEmail>vaclav@vaclavpech.eu</authorEmail>
+  <title>GPars Plugin</title>
+  <description>\
+Adds GPars jar files to the projects. More on GPars at http://gpars.codehaus.org/
+</description>
+  <documentation>http://grails.org/plugin/gpars</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
